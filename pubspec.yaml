@@ -1,0 +1,27 @@
+name: ui_memory
+description: >-
+  Remember Flutter UI state - scroll positions, tabs, pages and expansion -
+  across rebuilds and app restarts. Pure Dart, no platform plugins.
+version: 0.1.0
+homepage: https://github.com/phantome001/ui_memory
+repository: https://github.com/phantome001/ui_memory
+issue_tracker: https://github.com/phantome001/ui_memory/issues
+topics:
+  - flutter
+  - state
+  - persistence
+  - scroll
+  - restoration
+
+environment:
+  sdk: ^3.9.0
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lints: ^6.0.0
