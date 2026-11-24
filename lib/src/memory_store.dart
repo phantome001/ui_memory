@@ -7,6 +7,11 @@
 ///
 /// Implementations should be safe to call concurrently.
 abstract class MemoryStore {
+  /// Creates a storage backend for serialized UI snapshots.
+  ///
+  /// Implement [read], [write] and [delete] to plug in your own persistence.
+  const MemoryStore();
+
   /// Reads the raw snapshot stored under [id], or `null` when there is none.
   Future<String?> read(String id);
 

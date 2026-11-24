@@ -32,7 +32,7 @@ already use.
 
 ```yaml
 dependencies:
-  ui_memory: ^0.1.0
+  ui_memory: ^0.1.1
 ```
 
 ## Quick start

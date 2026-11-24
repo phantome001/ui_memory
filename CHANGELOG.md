@@ -1,3 +1,9 @@
+## 0.1.1
+
+* Document the `MemoryStore` constructor so every public API element has
+  dartdoc comments.
+* Add an `example/README.md` describing how to run the demo app.
+
 ## 0.1.0
 
 * Initial release.
